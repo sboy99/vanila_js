@@ -1,0 +1,12 @@
+{
+  "name": "vanila_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01_start.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
