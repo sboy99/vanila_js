@@ -14,7 +14,7 @@
 5. can change the value
 */
 
-const person = require("./data");
+const { person } = require("../data");
 
 // returns person salary
 const personSalary = person.map((people) => people.salary + 500);

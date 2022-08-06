@@ -25,4 +25,37 @@ const person = [
   },
 ];
 
-module.exports = person;
+const students = [
+  {
+    id: 1,
+    name: `Dekisuki`,
+    score: 90,
+    favoriteSubject: "math",
+  },
+  {
+    id: 2,
+    name: `Gian`,
+    score: 71,
+    favoriteSubject: "music",
+  },
+  {
+    id: 3,
+    name: `Sunio`,
+    score: 56,
+    favoriteSubject: "math",
+  },
+  {
+    id: 4,
+    name: `Sisuka`,
+    score: 82,
+    favoriteSubject: "music",
+  },
+  {
+    id: 5,
+    name: `Nobita`,
+    score: 46,
+    favoriteSubject: "Doraemon",
+  },
+];
+
+module.exports = { person, students };

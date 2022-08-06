@@ -14,7 +14,7 @@
 5. does not change element value
 */
 
-const person = require("./data");
+const { person } = require("../data");
 
 const higherSalaryPeople = person.filter((emp) => emp.salary > 55000);
 console.log(higherSalaryPeople);

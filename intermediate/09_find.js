@@ -13,7 +13,7 @@
 4. if nothing found return undefined 
 */
 
-const person = require("./data");
+const { person } = require("../data");
 
 //adding id using map..
 const employees = person.map((emp, index) => {

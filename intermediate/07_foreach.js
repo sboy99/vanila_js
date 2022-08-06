@@ -5,7 +5,7 @@
 // filter
 
 //* foreach: does not return a new array. It mutates orginal array
-const person = require("./data");
+const { person } = require("../data");
 
 person.forEach(function (employee) {
   console.log((employee.salary = parseInt((employee.salary * 1.1).toFixed(2)))); //salary incremented by 10%
